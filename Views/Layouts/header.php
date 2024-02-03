@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="../../Img/rAKIA.png">
-<link rel="stylesheet" href="../../themify-icons/themify-icons.css">
-
+    <link rel="stylesheet" href="../../Asset/themify-icons/themify-icons.css">
     <script src="https://kit.fontawesome.com/c13a07f3cd.js" crossorigin="anonymous"></script>
     <style>
         * {
@@ -66,13 +65,13 @@
 <body>
     <header id="header">
         <nav class="navigation">
-            <img class="logo" src="../../../Img/Picture1.png" alt="">
+            <img class="logo" src="Asset/Img/Picture1.png" alt="">
             <ul class="nav">
                 <li><a href="./index.php?action=home">Home</a></li>
-                <li><a href="./index.php?action=product">Product</a></li>
-                <li><a href="./index.php?action=details">Details</a></li>
-                <li><a href="./index.php?action=contact">Contact</a></li>
-                <li><a href="./index.php?action=login" style="border: 2px #cdcdcd solid;padding:5px;border-radius: 5px;background-color: #cdcdcd;">Login</a></li>
+                <li><a href="./index.php?controller=product&action=index">Product</a></li>
+                <li><a href="./index.php?controller=details&action=index">Details</a></li>
+                <li><a href="./index.php?controller=contact&action=index">Contact</a></li>
+                <li><a href="./index.php?controller=login&action=theme" style="border: 2px #cdcdcd solid;padding:5px;border-radius: 5px;background-color: #cdcdcd;">Login</a></li>
             </ul>
         </nav>
     </header>
