@@ -29,10 +29,7 @@
             width: 80%;
             margin: auto;
             height: 600px;
-
-
         }
-
         form {
             margin-top: 220px;
 

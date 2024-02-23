@@ -16,17 +16,6 @@
             box-sizing: border-box;
             font-family: Poppins;
         }
-
-        html {}
-
-        /* header */
-
-
-        /* @media */
-        /* Header */
-
-
-        /* Body */
         #body {
             width: 100%;
             height: fit-content;

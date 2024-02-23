@@ -1,4 +1,4 @@
-<?php
+<?php 
 if (isset($_GET['controller'])) {
     $controller = $_GET['controller'];
     if (isset($_GET['action'])) {
@@ -7,8 +7,8 @@ if (isset($_GET['controller'])) {
         $action = 'index';
     }
 } else {
-    $controller = 'home';
-    $action = 'index';
+    $controller = 'admin';
+    $action = 'home';
 }
 require_once('routes.php');
 $route = new routes();

@@ -1,7 +1,7 @@
 <?php
 require_once('baseController.php');
 
-class homeController extends BaseController
+class adminController extends BaseController
 {
     function __construct()
     {
@@ -18,3 +18,4 @@ class homeController extends BaseController
         $this->render('error');
     }
 }
+
